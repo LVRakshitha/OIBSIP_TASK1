@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <script src="https://kit.fontawesome.com/e7eb419a9f.js" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+        body {
+            margin: 0;
+            background: linear-gradient(rgb(14, 145, 189), rgb(219, 235, 219));
+            height: 100vh;
+            width: 100%;
+        }
+
+        .header {
+            font-family: Georgia, serif;
+            background-color: rgb(40, 5, 40);
+            display: flex;
+            align-items: center;
+            height: 70px;
+        }
+
+        .header img {
+            height: 60px;
+        }
+
+        .header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            height: 65px;
+            font-size: 20px;
+            text-shadow: 1px 1px 2px rgb(90, 32, 90);
+            color: white;
+        }
+
+        .header nav li {
+            margin-left: 25px;
+        }
+
+        .header nav ul a {
+            text-decoration: none;
+            color: white
+        }
+
+        #inp {
+            font-size: 15px;
+            margin-left: 300px;
+            border-radius: 10px;
+        }
+
+        .container {
+            min-height: 70vh;
+            color: white;
+            font-family: 'Varela Round', sans-serif;
+            display: flex;
+            width: 76%;
+            margin: 23px auto;
+            border-radius: 10px;
+            padding: 35px;
+            background-image: url('bg.jpg');
+            background-size: cover;
+        }
+
+        #t {
+            border-radius: 10px;
+            height: 200px;
+            width: 300px;
+            margin-left: 400px;
+        }
+
+        #trip {
+            border-radius: 10px;
+            height: 200px;
+            width: 300px;
+            margin-left: 10px;
+        }
+
+        h1 {
+            font-family: 'Rubik Doodle Shadow', sans-serif;
+            color: rgb(238, 234, 243);
+        }
+
+        #p {
+
+            /* background-color: white; */
+            color: rgb(11, 63, 32);
+            position: absolute;
+            font-weight: 2000px;
+            font-size: large;
+            display: flex;
+            margin-top: 300px;
+            margin-left: 10px;
+        }
+
+        .footer {
+            width: 100%;
+            height: 50px;
+            color: white;
+            font-family: Georgia, serif;
+            background-color: rgb(40, 5, 40);
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            /* Add this line to center the content horizontally */
+        }
+
+        .imgs {
+            border-radius: 10px;
+            height: 300px;
+            font-weight: 400px;
+        }
+
+        .trips {
+            padding: 2%;
+            background-color: rgb(49, 149, 186);
+        }
+
+        .contents {
+            /* margin-top: 200px; */
+            min-height: 70vh;
+            background-color: rgb(38, 127, 168);
+            color: white;
+            font-family: 'Varela Round', sans-serif;
+            display: flex;
+            width: 75%;
+            margin: 23px auto;
+            border-radius: 10px;
+            padding: 35px;
+            background-image: url('bg.webp');
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ==============header================= -->
+    <div class="header">
+        <nav>
+
+            <ul>
+                <li><img src="logo.png"></li>
+                <li>
+                    <h3>CircularGlow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                </li>
+                <a href="google.com">
+                    <li><i class="fa-solid fa-house"></i>&nbsp; Home&nbsp;</li>
+                </a>
+                <a href="google.com">
+                    <li><i class="fa-solid fa-user"></i>&nbsp;About Us&nbsp;</li>
+                </a>
+                <a href="www.google.com">
+                    <li><i class="fa-solid fa-phone"></i>&nbsp;Contact me&nbsp;</li>
+                </a>
+                &nbsp;<input type="text" id="inp" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+
+        <h1>Discover the beauty <br> in every journey.</h1><br>
+        <img src="trip.png" id="t">
+        <pre id="p">
+        <img src="trip1.jpg" id="trip">
+        <img src="beech.jpg" id="trip">
+        we believe that each adventure is a canvas 
+        waiting to be painted with the colors of 
+        discovery. Our meticulously crafted trips 
+        invite you to open your eyes to the wonders 
+        of the world, from the majestic landscapes 
+        to the vibrant cultures that shape them.Embrace
+        the beauty of the unknown, savor the joy of 
+        exploration,and let every step of your journey be 
+        a brushstroke on the masterpiece of your life.Join
+        us,and uncover the extraordinary in every moment.</pre>
+    </div>
+
+    <!-- ============================================== -->
+    <div class="trips">
+        <div class="contents">
+            <table>
+                <tr>
+                    <td>
+                        <img src="m1.jpg" class="imgs">
+                        <h1>Manali</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+
+                    </td>
+                    <td>
+                        <img src="m2.jpg" class="imgs">
+                        <h1>Kashmir</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="m3.jpg" class="imgs">
+                        <h1>Bali</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+
+                    </td>
+                    <td>
+                        <img src="m4.jpeg" class="imgs">
+                        <h1>Kerala</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="m5.jpeg" class="imgs">
+                        <h1>Leh Ladakh</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+
+                    </td>
+                    <td>
+                        <img src="m6.jpg" class="imgs">
+                        <h1>Goa</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="m7.jpg" class="imgs">
+                        <h1>Jaipur</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+
+                    </td>
+                    <td>
+                        <img src="m8.jpeg" class="imgs">
+                        <h1>Rajasthas</h1>
+                        <p>Manali, nestled in the Himalayas, offers a
+                            breathtaking getaway with its snow-capped peaks,
+                            lush valleys, and adventure-filled landscapes.
+                            Visitors can explore Rohtang Pass, indulge in winter
+                            sports, visit the ancient Hadimba Temple, and
+                            experience the vibrant local culture. The town's
+                            scenic beauty and diverse activities make it a
+                            popular destination for nature lovers and
+                            thrill-seekers alike.</p>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+    <!-- ============================================= -->
+    <div class="footer">
+        <h3>continue with
+            &nbsp; &nbsp;
+        </h3>
+        <i class="fa-brands fa-google"></i> &nbsp; &nbsp;
+        <i class="fa-brands fa-facebook"></i> &nbsp; &nbsp;
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+</body>
+
+</html>
